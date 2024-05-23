@@ -1,0 +1,67 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.title{
+background-color: #C1C1C1;
+color: #ffffff;
+text-shadow: -2px 1px 2px #919191;
+margin-bottom: 30px;
+font-size: 20px;
+text-align: center;
+padding: 10px;
+}
+
+
+.caixa {
+    background-color: #f6f6f6;
+    width: 350px;
+    border: #C0C0C0 6px solid;
+    border-radius: 0px;
+
+}
+
+.rotulo {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.campo {
+    width: 80%;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #C1C1C1;
+    margin-left: 20px;
+
+}
+
+.botao {
+    display: block;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #C1C1C1;
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+    margin-left: 20px;
+}
